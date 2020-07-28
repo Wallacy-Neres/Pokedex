@@ -173,7 +173,7 @@ button:hover{
 	}
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 425px) {
 	.topo{
 		width: 800px;
 	}
@@ -185,7 +185,7 @@ button:hover{
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   button {
 		width: 220px;
 		height: 100px;
@@ -193,7 +193,7 @@ button:hover{
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   button {
 		width: 250px;
 		height: 100px;
