@@ -176,6 +176,16 @@ button:hover{
 		 padding: 0;
 		 margin: 0;
 	 }
+
+	 ul{
+		margin-left: -4px;
+	}
+	}
+
+	@media only screen and (max-width : 375px) {
+		ul{
+			margin-left: -5px;
+		}
 	}
 
 	@media only screen and (max-width : 320px) {
