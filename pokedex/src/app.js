@@ -19,7 +19,7 @@ const fetchPokemon = () => {
           <h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2>
           <p class="card-subtitle"> ${types.join(' | ')} </p>
           <audio src="https://storage.cloud.google.com/wallacy-pokedex/${pokemon.name}.mp3" id="${pokemon.name}"></audio>
-          <button onclick="playAudio(${pokemon.name})">Ficha Tecnica</button>
+          <button onclick="playAudio(${pokemon.name})">Ficha Técnica</button>
         </li>`
         return accumulator
       }, '');
